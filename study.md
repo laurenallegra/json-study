@@ -33,12 +33,56 @@ As it makes sense to you please write the following in JSON format:
 
 -   Jason has many things...
 -   A Cat named Mr.Kitty
--   Two roomates named Dave and Miller
+-   Two roommates named Dave and Miller
 -   A Love of the Red Sox, Patriots and Bruins
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+-   Jason has many things...
+*NOTE: I'm not sure I understood what this first example indicated...?*
+{
+  "jasonsStuff": {
+    "thing1": "guitar",
+    "thing2": "laptop",
+    "thing3": "hairProducts",
+    "thing4": "momsOldCar"
+  }
+}
+
+-   A Cat named Mr.Kitty
+{
+  "animalSpecies": "cat",
+  "name": "Mr. Kitty",
+}
+
+-   Two roommates named Dave and Miller
+
+{
+  "roommates": {
+    "firstName": "Dave",
+    "firstName": "Miller"
+  }
+}
+
+-   A Love of the Red Sox, Patriots and Bruins
+
+{
+  "favoriteTeams": {
+    "baseball": "Red Sox",
+    "football": "Patriots",
+    "hockey": "Bruins"
+  }
+}
+
+-   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
+
+{
+  "recentAddresses": {
+    "streetAddress": "123 Fake Street",
+    "streetAddress": "2 Muchinfo Road"
+  }
+}
+
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +90,21 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{
+  "roommates": {
+    "firstName": "Dave" {
+      "pets": {
+        "goldfishName": "Bob",
+        "color": "red",
+        "biter": "no"
+      },
+        "goldfishName": "Mr.MagicNibbles",
+        "color": "yellow",
+        "biter": "yes"
+    },
+    "firstName": "Miller"
+  }
+}
 ```
 
 ## JSON Methods
@@ -54,7 +112,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+I don't understand how to do this yet. Unless it is a trick question, because it clearly stated above that json cannot have methods. Since it is NOT an object, it cannot have behavior.
 ```
 
 ## JSON Comments
@@ -62,5 +120,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+I searched online and could not figure out what was meant by this question...hoping to learn more tomorrow. UNLESS...this was also a trick question, because it clearly stated above that json cannot have comments.
 ```
